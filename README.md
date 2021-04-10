@@ -7,4 +7,4 @@ Reweighting twiki: https://twiki.cern.ch/twiki/bin/viewauth/CMS/PileupMCReweight
 Pileup JSON twiki: https://twiki.cern.ch/twiki/bin/view/CMS/PileupJSONFileforData
 
 1) Calculate the delivered and recorded luminosity per lumi section for your given trigger paths. 
-'''brilcalc lumi --byls --normtag /cvmfs/cms-bril.cern.ch/cms-lumi-pog/Normtags/normtag_PHYSICS.json -i [your json] --hltpath [your !HLT path] -o output.csv'''
+`brilcalc lumi --byls --normtag /cvmfs/cms-bril.cern.ch/cms-lumi-pog/Normtags/normtag_PHYSICS.json -i [your json] --hltpath [your !HLT path] -o output.csv`
