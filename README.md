@@ -1,6 +1,7 @@
 # CMSpileupUtils
-Pileup utility for CMS
+Pileup utility for CMS.
 
+Need to place it inside a cms release (note: pileupCalc.py is broken in CMSSW_10_2_X, so please use another version).
 ParkingBPHX_results contains the lumi sections crab report for a submission which run on 99.9% of the dataset or more.
 
 Reweighting twiki: https://twiki.cern.ch/twiki/bin/viewauth/CMS/PileupMCReweightingUtilities
