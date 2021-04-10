@@ -12,3 +12,5 @@ Pileup JSON twiki: https://twiki.cern.ch/twiki/bin/view/CMS/PileupJSONFileforDat
   If they don't exists already in `lumi_brilcalc`, compute them using `getLumiPer_TriggerPath_and_Part.sh` (e.g. `./getLumiPer_TriggerPath_and_Part.sh Mu12_IP6 5 &> Mu12_p5.log &`). 
   
 2) Create the HLT corrected pileup file. If they don't exists already in `HLT_corrected_PileupJSON`, compute them using `createHLTCorrectedPileupJSON.sh` (e.g. `./createHLTCorrectedPileupJSON.sh Mu12_IP6 5 &> Mu12_p5.log &`). 
+
+3) Create the pileup histogram using `createDataPileupHisto.sh`.
