@@ -1,0 +1,3 @@
+pileupCalc.py -i ParkingBPH3_results/processedLumis.json --inputLumiJSON HLT_corrected_PileupJSON/Mu12_IP6_part3_PileupJSON.txt --calcMode true --minBiasXsec 69200 --maxPileupBin 100 --numPileupBins 100 pileupHistos/pileupHisto_Mu12_IP6_part3.root
+Wrote output histogram to pileupHistos/pileupHisto_Mu12_IP6_part3.root
+Done!
