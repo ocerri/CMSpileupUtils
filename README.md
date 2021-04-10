@@ -10,3 +10,5 @@ Pileup JSON twiki: https://twiki.cern.ch/twiki/bin/view/CMS/PileupJSONFileforDat
 1) Calculate the delivered and recorded luminosity per lumi section for your given trigger paths.
   Need to use blilcalc (https://cms-service-lumi.web.cern.ch/cms-service-lumi/brilwsdoc.html).
   If they don't exists already in `lumi_brilcalc`, compute them using `getLumiPer_TriggerPath_and_Part.sh` (e.g. `./getLumiPer_TriggerPath_and_Part.sh Mu12_IP6 5 &> Mu12_p5.log &`). 
+  
+2) Create the HLT corrected pileup file. If they don't exists already in `HLT_corrected_PileupJSON`, compute them using `createHLTCorrectedPileupJSON.sh` (e.g. `./createHLTCorrectedPileupJSON.sh Mu12_IP6 5 &> Mu12_p5.log &`). 
